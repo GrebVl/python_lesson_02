@@ -12,8 +12,8 @@ list_ = []
 for i in range(-N, N+1):
     list_.append(i)
 
-proizved_ = list_[a-1] + list_[b-1]
+product_numbers = list_[a-1] * list_[b-1]
 
 print(list_)
 print('a ->>', list_[a-1], 'b ->>', list_[b-1])
-print(proizved_)
+print(product_numbers)
